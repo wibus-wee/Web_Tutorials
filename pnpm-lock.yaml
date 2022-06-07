@@ -13,7 +13,7 @@ specifiers:
   prettier: 2.6.2
   prismjs: '*'
   shiki: 0.10.1
-  typescript: ^4.7.3
+  typescript: 4.7.3
   vite: 2.9.9
   vite-plugin-windicss: 1.8.4
   vitepress: 1.0.0-alpha.1
