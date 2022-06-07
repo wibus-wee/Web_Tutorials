@@ -3,7 +3,7 @@
  * @author: Wibus
  * @Date: 2022-05-28 19:58:17
  * @LastEditors: Wibus
- * @LastEditTime: 2022-06-06 16:34:39
+ * @LastEditTime: 2022-06-07 09:39:18
  * Coding With IU
  */
 
@@ -38,6 +38,7 @@ export default defineConfig({
     nav: nav(),
     sidebar: {
       '/guide/': sidebarGuide(),
+      '/javascript/': sidebarGuide(),
     },
 
     logo: '/logo.svg',
@@ -90,6 +91,26 @@ function sidebarGuide() {
         { text: '网站如何运作（额外）', link: '/guide/How_the_Web_works' },
       ]
     },
+    {
+      text: '第二章 - JavaScript 入门',
+      collapsible: true,
+      items: [
+        { text: '前言', link: '/javascript/' },
+        // 简介
+        { text: '什么是 JavaScript', link: '/javascript/what_is_js' },
+        // 手册与规范
+        { text: '手册与规范', link: '/javascript/manual_and_spec' },
+        // 如何使用开发者控制台
+        { text: '如何使用开发者控制台', link: '/javascript/how_to_use_dev_console' },
+        // Hello, world!
+        { text: 'Hello, world!', link: '/javascript/hello_world' },
+        // 代码结构
+        { text: '代码结构', link: '/javascript/code_structure' },
+        // 现代模式，"use strict"
+        { text: '现代模式，"use strict"', link: '/javascript/strict-mode' },
+        
+      ]
+    }
     
   ]
 }
