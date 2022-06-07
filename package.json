@@ -21,6 +21,19 @@
     ]
   },
   "keywords": [],
+  "dependencies": {
+    "@types/markdown-it": "*",
+    "@types/prismjs": "*",
+    "@vueuse/core": "8.5.0",
+    "@vueuse/head": "0.7.6",
+    "markdown-it": "*",
+    "markdown-it-checkbox": "1.1.0",
+    "prismjs": "*",
+    "shiki": "0.10.1",
+    "vite": "2.9.9",
+    "vitepress": "1.0.0-alpha.1",
+    "vue": "3.2.36"
+  },
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
@@ -33,23 +46,11 @@
   },
   "devDependencies": {
     "@types/node": "17.0.23",
-    "@types/markdown-it": "*",
-    "@types/prismjs": "*",
-    "@vueuse/core": "8.5.0",
-    "@vueuse/head": "0.7.6",
-    "markdown-it": "*",
-    "markdown-it-checkbox": "1.1.0",
-    "prismjs": "*",
-    "shiki": "0.10.1",
-    "vite": "2.9.9",
-    "vue": "3.2.36",
     "husky": "8.0.1",
-    "lint-staged": "12.5.0",
+    "lint-staged": "12.4.1",
     "prettier": "2.6.2",
     "vite-plugin-windicss": "1.8.4",
-    "windicss": "3.5.4",
-    "typescript": "4.7.3",
-    "vitepress": "1.0.0-alpha.1"
+    "windicss": "3.5.4"
   },
   "author": "wibus-wee",
   "license": "ISC"

@@ -3,7 +3,7 @@
  * @author: Wibus
  * @Date: 2022-05-28 19:58:17
  * @LastEditors: Wibus
- * @LastEditTime: 2022-06-07 09:39:18
+ * @LastEditTime: 2022-06-07 11:30:04
  * Coding With IU
  */
 
@@ -82,13 +82,13 @@ function sidebarGuide() {
       collapsible: true,
       items: [
         { text: '初次见面', link: '/guide/' },
-        { text: '安装基本软件', link: '/guide/Installing_basic_software' },
-        { text: '设计网站外观', link: '/guide/What_will_your_website_look_like' },
-        { text: '处理文件', link: '/guide/Dealing_with_files' },
-        { text: 'HTML 基础知识', link: '/guide/html' },
-        { text: 'CSS 基础知识', link: '/guide/css' },
-        { text: '发布你的网站', link: '/guide/Publishing_your_website' },
-        { text: '网站如何运作（额外）', link: '/guide/How_the_Web_works' },
+        // { text: '安装基本软件', link: '/guide/Installing_basic_software' },
+        // { text: '设计网站外观', link: '/guide/What_will_your_website_look_like' },
+        // { text: '处理文件', link: '/guide/Dealing_with_files' },
+        // { text: 'HTML 基础知识', link: '/guide/html' },
+        // { text: 'CSS 基础知识', link: '/guide/css' },
+        // { text: '发布你的网站', link: '/guide/Publishing_your_website' },
+        // { text: '网站如何运作（额外）', link: '/guide/How_the_Web_works' },
       ]
     },
     {

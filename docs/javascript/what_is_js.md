@@ -96,7 +96,7 @@ JavaScript 是将这三件事结合在一起的唯一的浏览器技术。
 这就是为什么 JavaScript 与众不同。这也是为什么它是用于创建浏览器界面的使用最广泛的工具。
 
 
-:::tip <font style="font-size: 1.5rem; padding-top: 30px">总结</font>
+:::tip 总结
 
 - JavaScript 最开始是专门为浏览器设计的一门语言，但是现在也被用于很多其他的环境。
 - JavaScript 作为被应用最广泛的浏览器语言，且与 HTML/CSS 完全集成，具有独特的地位。
