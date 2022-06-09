@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.e55a9f72.js";const p='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"guide/Dealing_with_files.md"}',i={name:"guide/Dealing_with_files.md"};function _(o,r,s,n,c,l){return a(),t("div")}var f=e(i,[["render",_]]);export{p as __pageData,f as default};
