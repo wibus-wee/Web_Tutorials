@@ -17,7 +17,7 @@ specifiers:
   vite-plugin-windicss: 1.8.5
   vitepress: 1.0.0-alpha.1
   vue: 3.2.36
-  windicss: 3.5.4
+  windicss: 3.5.5
 
 dependencies:
   '@types/markdown-it': 12.2.3
@@ -38,7 +38,7 @@ devDependencies:
   lint-staged: 13.0.1
   prettier: 2.6.2
   vite-plugin-windicss: 1.8.5_vite@2.9.9
-  windicss: 3.5.4
+  windicss: 3.5.5
 
 packages:
 
@@ -1409,12 +1409,6 @@ packages:
     hasBin: true
     dependencies:
       isexe: 2.0.0
-    dev: true
-
-  /windicss/3.5.4:
-    resolution: {integrity: sha512-x2Iu0a69dtNiKHMkR886lx0WKbZI5GqvXyvGBCJ2VA6rcjKYjnzCA/Ljd6hNQBfqlkSum8J+qAVcCfLzQFI4rQ==}
-    engines: {node: '>= 12'}
-    hasBin: true
     dev: true
 
   /windicss/3.5.5:
