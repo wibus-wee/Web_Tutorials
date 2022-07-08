@@ -13,7 +13,7 @@ specifiers:
   prettier: 2.6.2
   prismjs: '*'
   shiki: 0.10.1
-  vite: 2.9.9
+  vite: 2.9.14
   vite-plugin-windicss: 1.8.6
   vitepress: 1.0.0-alpha.1
   vue: 3.2.36
@@ -28,7 +28,7 @@ dependencies:
   markdown-it-checkbox: 1.1.0
   prismjs: 1.28.0
   shiki: 0.10.1
-  vite: 2.9.9
+  vite: 2.9.14
   vitepress: 1.0.0-alpha.1
   vue: 3.2.36
 
@@ -37,7 +37,7 @@ devDependencies:
   husky: 8.0.1
   lint-staged: 13.0.1
   prettier: 2.6.2
-  vite-plugin-windicss: 1.8.6_vite@2.9.9
+  vite-plugin-windicss: 1.8.6_vite@2.9.14
   windicss: 3.5.6
 
 packages:
@@ -245,14 +245,14 @@ packages:
     resolution: {integrity: sha512-ZTaqn/qSqUuAq1YwvOFQfVW1AR/oQJlLSZVustdjwI+GZ8kr0MSHBj0tsXPW1EqHubx50gtBEjbPGsdZwQwCjQ==}
     dev: false
 
-  /@vitejs/plugin-vue/2.3.3_vite@2.9.9+vue@3.2.36:
+  /@vitejs/plugin-vue/2.3.3_vite@2.9.14+vue@3.2.36:
     resolution: {integrity: sha512-SmQLDyhz+6lGJhPELsBdzXGc+AcaT8stgkbiTFGpXPe8Tl1tJaBw1A6pxDqDuRsVkD8uscrkx3hA7QDOoKYtyw==}
     engines: {node: '>=12.0.0'}
     peerDependencies:
       vite: ^2.5.10
       vue: ^3.2.25
     dependencies:
-      vite: 2.9.9
+      vite: 2.9.14
       vue: 3.2.36
     dev: false
 
@@ -1310,7 +1310,7 @@ packages:
     resolution: {integrity: sha512-BQFnUDuAQ4Yf/cYY5LNrK9NCJFKriaRbD9uR1fTeXnBeoa97W0i41qkZfGO9pSo8I5KzjAcSY2XYtdf0oKd7KQ==}
     dev: false
 
-  /vite-plugin-windicss/1.8.6_vite@2.9.9:
+  /vite-plugin-windicss/1.8.6_vite@2.9.14:
     resolution: {integrity: sha512-D4G4qmumgklPiPrq/ZALqq8Mby6krskFVShbmb5c+0VCSsLUN96qyFRTwi81rNIHwFvlbpqflgh+BpUM/9VjQg==}
     peerDependencies:
       vite: ^2.0.1
@@ -1318,14 +1318,14 @@ packages:
       '@windicss/plugin-utils': 1.8.6
       debug: 4.3.4
       kolorist: 1.5.1
-      vite: 2.9.9
+      vite: 2.9.14
       windicss: 3.5.6
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /vite/2.9.9:
-    resolution: {integrity: sha512-ffaam+NgHfbEmfw/Vuh6BHKKlI/XIAhxE5QSS7gFLIngxg171mg1P3a4LSRME0z2ZU1ScxoKzphkipcYwSD5Ew==}
+  /vite/2.9.14:
+    resolution: {integrity: sha512-P/UCjSpSMcE54r4mPak55hWAZPlyfS369svib/gpmz8/01L822lMPOJ/RYW6tLCe1RPvMvOsJ17erf55bKp4Hw==}
     engines: {node: '>=12.2.0'}
     hasBin: true
     peerDependencies:
@@ -1354,11 +1354,11 @@ packages:
     dependencies:
       '@docsearch/css': 3.1.0
       '@docsearch/js': 3.1.0
-      '@vitejs/plugin-vue': 2.3.3_vite@2.9.9+vue@3.2.36
+      '@vitejs/plugin-vue': 2.3.3_vite@2.9.14+vue@3.2.36
       '@vueuse/core': 8.6.0_vue@3.2.36
       body-scroll-lock: 4.0.0-beta.0
       shiki: 0.10.1
-      vite: 2.9.9
+      vite: 2.9.14
       vue: 3.2.36
     transitivePeerDependencies:
       - '@types/react'
